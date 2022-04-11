@@ -22,17 +22,11 @@ function App() {
       date: new Date(2021, 5, 12),
     },
   ];
-  // return (
-  //   <div>
-  //     <h1>hiiiiiii</h1>
-  //     <Expenses items={expenses}></Expenses>
-  //   </div>
-  // );
-  return React.createElement(
-    "div",
-    {},
-    React.createElement("h1", {}),
-    React.createElement(Expenses, { title: expenses })
+  return (
+    <div>
+      <h1>hiiiiiii</h1>
+      <Expenses items={expenses}></Expenses>
+    </div>
   );
 }
 
