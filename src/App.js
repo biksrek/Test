@@ -26,6 +26,7 @@ function App() {
     <div>
       <h1>hiiiiiii</h1>
       <Expenses items={expenses}></Expenses>
+      <div>git</div>
     </div>
   );
 }
